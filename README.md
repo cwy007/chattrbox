@@ -20,6 +20,9 @@ npm info express
 npm start   # 不用run，因为npm假定start脚本一定存在
 npm run dev # 自定义的npm脚本需要显示地强调你想要run这些脚本
 
+npm install --save ws
+--save # dependencies 生产环境依赖
+
 ```
 
 ## 问题
