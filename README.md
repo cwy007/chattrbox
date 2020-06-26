@@ -1,3 +1,24 @@
 # chattrbox
 
 《Web开发权威指南》书中的第3个demo
+
+## commands
+
+```bash
+npm install --save-dev nodemon
+--save-dev # 安装开发环境依赖 devDependencies
+
+npm fund
+npm fund nodemon
+# 查看 package 的 repository 地址
+
+npm start   # 不用run，因为npm假定start脚本一定存在
+npm run dev # 自定义的npm脚本需要显示地强调你想要run这些脚本
+
+```
+
+## 问题
+
+exit 0
+
+exit 1
