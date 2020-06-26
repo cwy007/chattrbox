@@ -8,9 +8,14 @@
 npm install --save-dev nodemon
 --save-dev # 安装开发环境依赖 devDependencies
 
+# 查看 package 的 repository 地址
 npm fund
 npm fund nodemon
-# 查看 package 的 repository 地址
+
+# 配置npm的registry地址 && 验证是否成功
+npm config set registry https://registry.npm.taobao.org
+npm config get registry
+npm info express
 
 npm start   # 不用run，因为npm假定start脚本一定存在
 npm run dev # 自定义的npm脚本需要显示地强调你想要run这些脚本
@@ -22,3 +27,7 @@ npm run dev # 自定义的npm脚本需要显示地强调你想要run这些脚本
 exit 0
 
 exit 1
+
+## 最佳实践
+
+先报错，早返回
