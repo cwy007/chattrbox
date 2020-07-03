@@ -25,6 +25,17 @@ npm install --save ws
 
 ```
 
+## 本地运行项目
+
+```bash
+# 进到项目 chattrbox，运行
+npm start
+
+# 打开一个新的终端，运行
+browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html, scripts/*.js"
+
+```
+
 ## 问题
 
 exit 0
