@@ -23,6 +23,13 @@ npm run dev # 自定义的npm脚本需要显示地强调你想要run这些脚本
 npm install --save ws
 --save # dependencies 生产环境依赖
 
+npm install -g babel-cli
+npm install --save-dev babel-core
+npm install --save-dev babel-preset-es2015
+npm install --save-dev browserify babelify watchify
+babel app/scripts/src/app.js -o app/scripts/dist/main.js
+
+
 ```
 
 ## 本地运行项目
