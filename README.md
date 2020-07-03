@@ -29,7 +29,7 @@ npm install --save ws
 
 ```bash
 # 进到项目 chattrbox，运行
-npm start
+npm run dev
 
 # 打开一个新的终端，运行
 browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html, scripts/*.js"
