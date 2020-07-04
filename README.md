@@ -39,7 +39,7 @@ babel app/scripts/src/app.js -o app/scripts/dist/main.js
 npm run dev
 
 # 打开一个新的终端，运行
-browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html, scripts/*.js"
+npm run watch
 
 ```
 
