@@ -1,5 +1,5 @@
 node_modules/
-app/scripts/dist/
+app/scripts/dist/*
 
 # except for .gitkeep
 !.gitkeep
