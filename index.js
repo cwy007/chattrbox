@@ -11,12 +11,13 @@ var handleError = function (err, res) {
 var server = http.createServer(function (req, res) {
   console.log('Responding to a request.');
   var filePath = extract(req.url);
+  var contentType = filePath.includes('styles.css') ? 'text/css' : 'text/html'
   fs.readFile(filePath, function (err, data) {
     if (err) {
       handleError(err, res);
       return;
     } else {
-      res.setHeader('Content-Type', 'text/html');
+      res.setHeader('Content-Type', contentType);
       res.end(data);
     }
   });
